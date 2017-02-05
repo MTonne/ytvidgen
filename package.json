@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "vid": "ffmpeg -i video_gen\\test.avs -y video_gen\\test.mp4"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/MTonne/ytvidgen#readme",
   "dependencies": {
+    "promise": "^7.1.1",
     "youtube-api": "^2.0.6"
   }
 }
