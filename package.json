@@ -1,0 +1,23 @@
+{
+  "name": "ytvidgen",
+  "version": "1.0.0",
+  "description": "Uses YouTube API to generate videos out of comments or something...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MTonne/ytvidgen.git"
+  },
+  "author": "Bastian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MTonne/ytvidgen/issues"
+  },
+  "homepage": "https://github.com/MTonne/ytvidgen#readme",
+  "dependencies": {
+    "youtube-api": "^2.0.6"
+  }
+}
